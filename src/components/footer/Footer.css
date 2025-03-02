@@ -1,0 +1,36 @@
+/* Custom CSS for the Footer component */
+.footer-section {
+    background-color: #021526; /* Dark background */
+    padding: 60px 0;
+  }
+  
+  .footer-section h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff; /* White text */
+  }
+  
+  .footer-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ffffff; /* White text */
+  }
+  
+  .footer-section a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #0a3d62; /* Light blue on hover */
+  }
+  
+  /* Social media icons */
+  .footer-section .d-flex a {
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-section .d-flex a:hover {
+    transform: translateY(-5px);
+  }

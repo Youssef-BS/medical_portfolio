@@ -1,0 +1,44 @@
+
+.custom-navbar-shadow {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-nav .nav-link {
+  color: #333; 
+  font-weight: 500; 
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #001F3F !important; 
+  transform: translateY(-2px); 
+}
+
+
+.navbar-nav .nav-link.active {
+  color: #001F3F !important; 
+  font-weight: 600; 
+}
+
+
+.navbar {
+  padding: 15px 0; 
+}
+
+
+.sticky-top {
+  background-color: rgba(255, 255, 255, 0.95); 
+  backdrop-filter: blur(10px); 
+}
+
+
+.btn-primary {
+  background-color: #001F3F;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #003366; 
+  transform: translateY(-2px); 
+}

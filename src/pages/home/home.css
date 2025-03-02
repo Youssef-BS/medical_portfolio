@@ -1,0 +1,16 @@
+.intro {
+    height: 100vh;
+}
+
+.shape {
+    position: absolute;
+    width: 500px; /* Adjust size as needed */
+    height: 500px; /* Adjust size as needed */
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    border-radius: 50%; /* Makes it a circle */
+    z-index: 1; /* Ensures it's behind the photo */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the shape */
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.2); /* Adds a subtle glow */
+  }

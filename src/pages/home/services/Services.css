@@ -1,0 +1,50 @@
+
+.services-section {
+    padding: 80px 0;
+    margin: 80px auto;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #021526; 
+  }
+  
+  .slick-dots li button:before {
+    color: #021526; 
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #021526; 
+  }
+
+  .pick {
+    background-color: #021526;
+    cursor: pointer;
+    border: none;
+    border-radius: 24px;
+    padding: 12px;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .pick:hover {
+    border : 1px solid #021526;
+    color: #021526;
+    transition: 0.3s;
+  }
